@@ -1,0 +1,29 @@
+/////First Set/////
+Argument:(book.txt book.txt from7to70.txt from7to70.txt)
+NewWordFreq (Threaded version of the word counter)
+           1         2        3         4          5
+real    4.199s    6.071s    4.561s    5.265s    5.194s
+
+WordFreq (Sequential version of the word counter)
+           1         2        3         4          5
+real    3.701s    1.942s    2.528s    2.425s    2.469s
+
+/////Second Set/////
+Argument: (book.txt book.txt from7to70.txt from7to70.txt book.txt book.txt book.txt from7to70.txt from7to70.txt)
+NewWordFreq
+           1         2        3           4          5
+real    5.400s    6.720s    8.529s	   6.006s	   6.826s
+
+WordFreq
+           1          2           3           4           5
+real    2.651s		2.819s		2.858s		3.330s		3.078s
+
+/////Third Set/////
+Argument: (book.txt book.txt from7to70.txt from7to70.txt book.txt book.txt book.txt from7to70.txt from7to70.txt book.txt book.txt from7to70.txt from7to70.txt)
+NewWordFreq
+          1           2            3          4           5
+real    7.115s		7.348s		11.605s		7.292s		6.885s
+
+WordFreq
+          1           2           3           4           5
+real    2.827s		3.206s		3.298s		3.650s		3.627s
